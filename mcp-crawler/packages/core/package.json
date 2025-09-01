@@ -9,16 +9,26 @@
     ".": "./dist/index.js",
     "./*": "./dist/*"
   },
-  "files": ["dist", "assets"],
-  "scripts": { "build": "tsc -p tsconfig.json" },
+  "files": [
+    "dist",
+    "assets"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
   "dependencies": {
-    "cheerio": "^1.0.0",
-    "fast-xml-parser": "^4.4.0",
-    "normalize-url": "^8.0.0",
+    "cheerio": "^1.1.2",
+    "fast-xml-parser": "^4.5.3",
+    "normalize-url": "^8.0.2",
     "p-limit": "^5.0.0",
     "robots-parser": "^3.0.1",
-    "zod": "^3.23.8"
+    "zod": "^3.25.76"
   },
-  "devDependencies": { "typescript": "^5.4.0" },
-  "engines": { "node": ">=18.17" }
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
 }

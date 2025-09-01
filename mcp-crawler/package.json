@@ -6,13 +6,15 @@
     "apps/*"
   ],
   "scripts": {
-    "build": "npm run -w @mcp-crawler/core build && npm run -w mcp-crawler build && npm run -w @mcp-crawler/api build",
+    "build": "npm run -w @mcp-crawler/core build && npm run -w @mcp-crawler/api build && npm run -w mcp-crawler build",
     "dev:mcp": "npm -w mcp-crawler run dev",
     "dev:api": "npm -w @mcp-crawler/api run dev"
   },
   "devDependencies": {
     "tsx": "^4.16.0",
-    "typescript": "^5.4.0"
+    "typescript": "^5.6.3"
   },
-  "engines": { "node": ">=18.17" }
+  "engines": {
+    "node": ">=18.17"
+  }
 }
