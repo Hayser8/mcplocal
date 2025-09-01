@@ -1,7 +1,7 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { crawlSite } from "@mcp-crawler/core/crawler/crawl";
-import type { CrawlInput } from "@mcp-crawler/core/types/contracts";
+import { crawlSite } from "@mcp-crawler/core/crawler/crawl.js";
+import type { CrawlInput } from "@mcp-crawler/core/types/contracts.js";
 
 const CrawlShape = {
   startUrl: z.string().url(),

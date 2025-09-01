@@ -1,6 +1,6 @@
 import type { FastifyPluginAsync } from "fastify";
 import { z } from "zod";
-import { auditIndexability } from "@mcp-crawler/core/audit/indexability";
+import { auditIndexability } from "@mcp-crawler/core";
 
 const InputSchema = z.object({
   urls: z.array(z.string().url()).min(1).max(200),

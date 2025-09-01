@@ -1,7 +1,7 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { auditIndexability } from "@mcp-crawler/core/audit/indexability";
-import type { AuditInput } from "@mcp-crawler/core/types/contracts";
+import { auditIndexability } from "@mcp-crawler/core/audit/indexability.js";
+import type { AuditInput } from "@mcp-crawler/core/types/contracts.js";
 
 const AuditShape = {
   urls: z.array(z.string().url()).min(1).max(200),

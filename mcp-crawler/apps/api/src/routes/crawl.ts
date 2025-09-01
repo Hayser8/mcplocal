@@ -2,7 +2,7 @@ import type { FastifyPluginAsync } from "fastify";
 import { z } from "zod";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { crawlSite } from "@mcp-crawler/core/crawler/crawl";
+import { crawlSite } from "@mcp-crawler/core/crawler/crawl.js";
 
 const InputSchema = z.object({
   startUrl: z.string().url(),

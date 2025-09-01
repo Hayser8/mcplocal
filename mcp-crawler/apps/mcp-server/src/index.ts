@@ -1,7 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { registerCrawlTool } from "./tools/crawl";
-import { registerAuditTool } from "./tools/audit";
+import { registerCrawlTool } from "./tools/crawl.js";
+import { registerAuditTool } from "./tools/audit.js";
 
 const UA = process.env.CRAWLER_USER_AGENT || "mcp-crawler";
 

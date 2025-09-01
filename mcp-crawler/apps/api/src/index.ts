@@ -1,6 +1,6 @@
 import Fastify from "fastify";
-import auditRoutes from "./routes/audit";
-import crawlRoutes from "./routes/crawl";
+import auditRoutes from "./routes/audit.js";
+import crawlRoutes from "./routes/crawl.js";
 
 const fastify = Fastify({ logger: true });
 
