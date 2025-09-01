@@ -1,5 +1,4 @@
-// packages/core/src/utils/robots.ts
-import robotsParser from "robots-parser";
+import robotsParserLib from "robots-parser";
 
 export interface RobotsAgent {
   isAllowed: (url: string) => boolean;
@@ -14,6 +13,10 @@ type ParserWithDelay = {
 };
 
 const cache = new Map<string, RobotsAgent>();
+
+/** Cast robusto para evitar "no call signatures" */
+type RobotsParserFactory = (robotsUrl: string, body: string) => ParserWithDelay;
+const robotsParser = robotsParserLib as unknown as RobotsParserFactory;
 
 /**
  * Devuelve un agente robots para el origin dado.
@@ -33,7 +36,7 @@ export async function getRobotsAgent(origin: string, userAgent: string): Promise
     return agent;
   }
 
-  const parser = robotsParser(robotsUrl, body) as unknown as ParserWithDelay;
+  const parser = robotsParser(robotsUrl, body);
 
   const sitemaps = parser.getSitemaps?.() ?? [];
   const crawlDelay =

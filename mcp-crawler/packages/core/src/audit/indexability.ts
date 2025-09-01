@@ -1,4 +1,3 @@
-// packages/core/src/audit/indexability.ts
 import * as cheerio from "cheerio";
 import pLimit from "p-limit";
 import { setTimeout as wait } from "node:timers/promises";
@@ -9,8 +8,9 @@ import {
   type RobotsDirectives,
   type HreflangLink,
   type RedirectHop,
-} from "../types/contracts";
-import { absolutize, sameETLD1 } from "../utils/url";
+} from "../types/contracts.js";
+import type { Element } from "domhandler";
+import { absolutize, sameETLD1 } from "../utils/url.js";
 
 const DEFAULT_UA = process.env.CRAWLER_USER_AGENT ?? "mcp-crawler";
 const MAX_CONCURRENCY = Number(process.env.CRAWLER_MAX_CONCURRENCY ?? 6);
@@ -37,13 +37,11 @@ async function fetchWithRedirects(url: string, ua: string) {
 /** Parse de directivas robots (meta o header) en forma booleana */
 function parseRobotsDirectives(raw: string | null | undefined): RobotsDirectives | undefined {
   if (!raw) return undefined;
-  // Puede venir con múltiples encabezados separados; unifícalo a coma
   const tokens = raw
     .split(/[,;]+/g)
     .map((t) => t.trim().toLowerCase())
     .filter(Boolean);
 
-  // Si aparece "all", asumimos index,follow (sin no-*)
   const out: RobotsDirectives = {};
   for (const t of tokens) {
     if (t === "noindex") out.noindex = true;
@@ -52,9 +50,7 @@ function parseRobotsDirectives(raw: string | null | undefined): RobotsDirectives
     else if (t === "nosnippet") out.nosnippet = true;
     else if (t === "noimageindex") out.noimageindex = true;
     else if (t === "nocache") out.nocache = true;
-    // ignoramos max-snippet, max-image-preview, etc. en este MVP
   }
-  // Si no se marcó nada, devolvemos objeto vacío (puede haber sido "all" o irrelevante)
   return Object.keys(out).length ? out : {};
 }
 
@@ -105,7 +101,7 @@ function extractHtmlSignals(html: string, baseUrl: string): {
 
   // hreflang alternates
   const hreflang: HreflangLink[] = [];
-  $('link[rel="alternate"][hreflang]').each((_, el) => {
+  $('link[rel="alternate"][hreflang]').each((_i: number, el: Element) => {
     const lang = String($(el).attr("hreflang") ?? "").trim();
     const href = String($(el).attr("href") ?? "").trim();
     if (!lang || !href) return;
@@ -117,8 +113,7 @@ function extractHtmlSignals(html: string, baseUrl: string): {
   let metaRobots: RobotsDirectives | undefined;
   const metas = $('meta[name="robots"], meta[name="ROBOTS"]');
   if (metas.length > 0) {
-    // si hay varias, mergeamos
-    metas.each((_, el) => {
+    metas.each((_j: number, el: Element) => {
       const content = String($(el).attr("content") ?? "");
       const parsed = parseRobotsDirectives(content);
       metaRobots = mergeRobots(metaRobots, parsed);
@@ -132,14 +127,13 @@ export async function auditIndexability(input: AuditInput): Promise<AuditOutput>
   const ua = input.userAgent ?? DEFAULT_UA;
   const limit = pLimit(MAX_CONCURRENCY);
 
-  const tasks = input.urls.map((rawUrl) =>
+  const tasks = input.urls.map((rawUrl: string) =>
     limit(async (): Promise<AuditResult> => {
       // Fetch final con redirects
       let resInfo: { res: Response; finalUrl: string; redirectChain: RedirectHop[] };
       try {
         resInfo = await fetchWithRedirects(rawUrl, ua);
       } catch {
-        // Caso extremo: no se pudo obtener nada
         return {
           url: rawUrl,
           finalUrl: rawUrl,
@@ -159,7 +153,7 @@ export async function auditIndexability(input: AuditInput): Promise<AuditOutput>
       const status = res.status;
       const contentType = res.headers.get("content-type");
 
-      // X-Robots-Tag (puede haber varios)
+      // X-Robots-Tag
       const xValues = getAllXRobots(res.headers);
       let xRobots: RobotsDirectives | undefined;
       for (const v of xValues) {
@@ -177,9 +171,7 @@ export async function auditIndexability(input: AuditInput): Promise<AuditOutput>
         let html = "";
         try {
           html = await res.text();
-        } catch {
-          // ignore
-        }
+        } catch {}
         if (html) {
           const extracted = extractHtmlSignals(html, finalUrl);
           canonical = extracted.canonical;
@@ -189,16 +181,13 @@ export async function auditIndexability(input: AuditInput): Promise<AuditOutput>
         }
       }
 
-      // Flags de noindex
       const noindexMeta = Boolean(metaRobots?.noindex);
       const noindexHeader = Boolean(xRobots?.noindex);
 
-      // Conflictos comunes
       if (noindexMeta !== noindexHeader && (noindexMeta || noindexHeader)) {
         issues.push("conflicting noindex between meta and header");
       }
 
-      // Canonical off-domain
       try {
         if (canonical) {
           const pageU = new URL(finalUrl);
@@ -206,7 +195,6 @@ export async function auditIndexability(input: AuditInput): Promise<AuditOutput>
           if (!sameETLD1(pageU, canonU)) issues.push("canonical points to different eTLD+1");
         }
       } catch {
-        // canonical mal formado
         issues.push("invalid canonical URL");
       }
 
@@ -227,7 +215,6 @@ export async function auditIndexability(input: AuditInput): Promise<AuditOutput>
   );
 
   const results = await Promise.all(tasks);
-  // Respiro ligero para evitar bloquear el event loop si fueron muchas
   if (results.length > 20) await wait(0);
   return { results };
 }

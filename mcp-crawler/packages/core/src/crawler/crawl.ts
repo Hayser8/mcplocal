@@ -1,4 +1,3 @@
-// packages/core/src/crawler/crawl.ts
 import pLimit from "p-limit";
 import * as cheerio from "cheerio";
 import { setTimeout as wait } from "node:timers/promises";
@@ -8,15 +7,16 @@ import {
   type InventoryItem,
   type Edge,
   type RedirectHop,
-} from "../types/contracts";
+} from "../types/contracts.js";
 import {
   normalizeForKey,
   isInternal,
   hasIgnoredExtension,
   absolutize,
-} from "../utils/url";
-import { getRobotsAgent } from "../utils/robots";
-import { discoverSitemaps, collectSitemapUrls } from "../utils/sitemap";
+} from "../utils/url.js";
+import { getRobotsAgent } from "../utils/robots.js";
+import type { Element } from "domhandler";
+import { discoverSitemaps, collectSitemapUrls } from "../utils/sitemap.js";
 
 const DEFAULTS = {
   depth: Number(process.env.CRAWLER_DEFAULT_DEPTH ?? 2),
@@ -128,7 +128,7 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
       if (html) {
         const $ = cheerio.load(html);
         const hrefs = new Set<string>();
-        $("a[href]").each((_, el) => {
+        $("a[href]").each((_i: number, el: Element) => {
           const raw = String($(el).attr("href") ?? "").trim();
           if (!raw) return;
           const abs = absolutize(new URL(finalUrl), raw);
