@@ -1,3 +1,4 @@
+// packages/core/src/crawler/crawl.ts
 import pLimit from "p-limit";
 import * as cheerio from "cheerio";
 import { setTimeout as wait } from "node:timers/promises";
@@ -18,30 +19,84 @@ import { getRobotsAgent } from "../utils/robots.js";
 import type { Element } from "domhandler";
 import { discoverSitemaps, collectSitemapUrls } from "../utils/sitemap.js";
 
+/** UA de navegador por defecto para evitar bloqueos por WAF/anti-bot */
+const BROWSER_UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36";
+
 const DEFAULTS = {
   depth: Number(process.env.CRAWLER_DEFAULT_DEPTH ?? 2),
   maxPages: Number(process.env.CRAWLER_MAX_PAGES ?? 500),
-  ua: process.env.CRAWLER_USER_AGENT ?? "mcp-crawler",
+  ua: (process.env.CRAWLER_USER_AGENT?.trim() || BROWSER_UA),
   maxConcurrency: Number(process.env.CRAWLER_MAX_CONCURRENCY ?? 6),
   respectRobots: process.env.CRAWLER_RESPECT_ROBOTS === "1",
+  requestTimeoutMs: Number(process.env.CRAWLER_TIMEOUT_MS ?? 20000),
 };
 
-async function fetchWithRedirects(url: string, ua: string) {
-  const hops: RedirectHop[] = [];
-  const init: RequestInit = { headers: { "User-Agent": ua }, redirect: "manual" };
-  let res = await fetch(url, init);
-  let currentUrl = url;
-  let safety = 10;
+/** AbortController con timeout */
+function abortSignal(ms: number) {
+  const c = new AbortController();
+  const t = setTimeout(() => c.abort(), ms);
+  // @ts-ignore
+  t.unref?.();
+  return c.signal;
+}
 
-  while ([301, 302, 303, 307, 308].includes(res.status) && safety-- > 0) {
-    const loc = res.headers.get("location");
-    if (!loc) break;
-    const next = new URL(loc, currentUrl).toString();
-    hops.push({ from: currentUrl, to: next, status: res.status });
-    currentUrl = next;
-    res = await fetch(currentUrl, init);
+/** Estados típicos de bloqueo por WAF/CDN */
+const BLOCKED_STATUSES = new Set([403, 406, 409, 410, 429, 451, 503]);
+
+/** Un solo fetch con headers “de navegador” y timeout */
+async function fetchOnce(url: string, ua: string, timeoutMs: number) {
+  return fetch(url, {
+    headers: {
+      "User-Agent": ua,
+      accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "accept-language": "en-US,en;q=0.9,es;q=0.8",
+    },
+    redirect: "manual",
+    signal: abortSignal(timeoutMs),
+  });
+}
+
+/**
+ * Fetch + seguimiento de redirects.
+ * Si el UA inicial recibe un status de bloqueo, reintenta 1 vez con BROWSER_UA.
+ */
+async function fetchWithRedirects(url: string, ua: string, timeoutMs: number) {
+  const chain = async (initialUrl: string, useUA: string) => {
+    const hops: RedirectHop[] = [];
+    let currentUrl = initialUrl;
+    let safety = 10;
+
+    let res = await fetchOnce(currentUrl, useUA, timeoutMs);
+
+    while ([301, 302, 303, 307, 308].includes(res.status) && safety-- > 0) {
+      const loc = res.headers.get("location");
+      if (!loc) break;
+      const next = new URL(loc, currentUrl).toString();
+      hops.push({ from: currentUrl, to: next, status: res.status });
+      currentUrl = next;
+      res = await fetchOnce(currentUrl, useUA, timeoutMs);
+    }
+    return { res, finalUrl: currentUrl, redirectChain: hops };
+  };
+
+  // Primer intento con el UA solicitado
+  try {
+    const r1 = await chain(url, ua);
+    if (BLOCKED_STATUSES.has(r1.res.status) && ua !== BROWSER_UA) {
+      // Reintento con UA de navegador
+      try {
+        return await chain(url, BROWSER_UA);
+      } catch {
+        return r1;
+      }
+    }
+    return r1;
+  } catch {
+    // Si falla duro (timeout/red), prueba directamente con UA de navegador
+    if (ua !== BROWSER_UA) return chain(url, BROWSER_UA);
+    throw new Error("fetch failed");
   }
-  return { res, finalUrl: currentUrl, redirectChain: hops };
 }
 
 export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
@@ -49,7 +104,7 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
   const depthMax = input.depth ?? DEFAULTS.depth;
   const maxPages = input.maxPages ?? DEFAULTS.maxPages;
   const includeSub = Boolean(input.includeSubdomains);
-  const ua = input.userAgent ?? DEFAULTS.ua;
+  const ua = (input.userAgent?.trim() || DEFAULTS.ua) || BROWSER_UA;
 
   const base = new URL(input.startUrl);
   const origin = `${base.protocol}//${base.host}`;
@@ -58,16 +113,42 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
     ? await getRobotsAgent(origin, ua)
     : { isAllowed: () => true, sitemaps: [] as string[] };
 
-  // Sitemaps → seeds normalizados
-  const smCandidates = await discoverSitemaps(input.startUrl, robots.sitemaps ?? [], ua);
+  // --- Descubrimiento de sitemaps (semillas) ---
+  const smCandidatesSet = new Set<string>(
+    await discoverSitemaps(input.startUrl, robots.sitemaps ?? [], ua)
+  );
+
+  // Asegurar candidatos /sitemap.xml para www y no-www
+  const host = base.hostname;
+  const rootSm = new URL("/sitemap.xml", base).href;
+  smCandidatesSet.add(rootSm);
+  if (host.startsWith("www.")) {
+    smCandidatesSet.add(`${base.protocol}//${host.replace(/^www\./, "")}/sitemap.xml`);
+  } else {
+    smCandidatesSet.add(`${base.protocol}//www.${host}/sitemap.xml`);
+  }
+  const smCandidates = [...smCandidatesSet];
+
   const fromSitemaps = new Set<string>();
   for (const sm of smCandidates) {
-    const urls = await collectSitemapUrls(sm, ua, maxPages);
-    for (const u of urls) fromSitemaps.add(normalizeForKey(u));
+    try {
+      const urls = await collectSitemapUrls(sm, ua, maxPages);
+      for (const u of urls) fromSitemaps.add(normalizeForKey(u));
+    } catch {
+      // si un sitemap falla, seguimos con los demás
+    }
   }
 
-  // BFS HTML
-  const queue: Array<{ url: string; depth: number }> = [{ url: base.toString(), depth: 0 }];
+  // --- BFS HTML: sembramos home + variante www/no-www
+  const queue: Array<{ url: string; depth: number }> = [
+    { url: base.toString(), depth: 0 },
+  ];
+  if (host.startsWith("www.")) {
+    queue.push({ url: `${base.protocol}//${host.replace(/^www\./, "")}${base.pathname}`, depth: 0 });
+  } else {
+    queue.push({ url: `${base.protocol}//www.${host}${base.pathname}`, depth: 0 });
+  }
+
   const seen = new Set<string>();
   const inventoryMap = new Map<string, InventoryItem>();
   const edges: Edge[] = [];
@@ -81,15 +162,20 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
     if (seen.has(key)) return;
     seen.add(key);
 
-    const u = new URL(node.url);
+    let u: URL;
+    try {
+      u = new URL(node.url);
+    } catch {
+      return;
+    }
     if (!isInternal(base, u, includeSub)) return;
     if (hasIgnoredExtension(u)) return;
     if (DEFAULTS.respectRobots && !robots.isAllowed(node.url)) return;
 
-    // Fetch + redirects
+    // Fetch + redirects con timeout y fallback de UA
     let resInfo: { res: Response; finalUrl: string; redirectChain: RedirectHop[] };
     try {
-      resInfo = await fetchWithRedirects(node.url, ua);
+      resInfo = await fetchWithRedirects(node.url, ua, DEFAULTS.requestTimeoutMs);
     } catch {
       return;
     }
@@ -97,7 +183,11 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
     const { res, finalUrl, redirectChain } = resInfo;
     fetchedCount++;
 
-    const contentType = res.headers.get("content-type");
+    const contentType = res.headers.get("content-type") || null;
+
+    // discoveredBy: chequea key y finalUrl normalizado
+    const inSm = fromSitemaps.has(key) || fromSitemaps.has(normalizeForKey(finalUrl));
+
     const item: InventoryItem = {
       url: node.url,
       normalizedUrl: key,
@@ -105,7 +195,7 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
       status: res.status,
       contentType,
       depth: node.depth,
-      discoveredBy: fromSitemaps.has(key) ? "both" : "html",
+      discoveredBy: inSm ? "both" : "html",
       redirectChain,
     };
 
@@ -114,7 +204,10 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
       const merged: InventoryItem = {
         ...prev,
         ...item,
-        discoveredBy: prev.discoveredBy === "sitemap" ? "both" : item.discoveredBy,
+        discoveredBy:
+          prev.discoveredBy === "sitemap" || item.discoveredBy === "both"
+            ? "both"
+            : item.discoveredBy,
       };
       inventoryMap.set(key, merged);
     } else {
@@ -141,7 +234,7 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
             if (!isInternal(base, toURL, includeSub)) continue;
             if (hasIgnoredExtension(toURL)) continue;
             const toKey = normalizeForKey(toAbs);
-            edges.push({ from: finalUrl, to: toKey });
+            edges.push({ from: normalizeForKey(finalUrl), to: toKey });
             if (!seen.has(toKey) && node.depth < depthMax) {
               queue.push({ url: toAbs, depth: node.depth + 1 });
             }
@@ -151,7 +244,8 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
     }
 
     if ("crawlDelay" in robots && (robots as any).crawlDelay) {
-      await wait((robots as any).crawlDelay * 1000);
+      const s = Number((robots as any).crawlDelay) || 0;
+      if (s > 0) await wait(s * 1000);
     }
   }
 
@@ -170,7 +264,10 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
       });
     } else {
       const prev = inventoryMap.get(k)!;
-      inventoryMap.set(k, { ...prev, discoveredBy: prev.discoveredBy === "html" ? "both" : "sitemap" });
+      inventoryMap.set(k, {
+        ...prev,
+        discoveredBy: prev.discoveredBy === "html" ? "both" : "sitemap",
+      });
     }
   }
 
@@ -180,7 +277,7 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
     await Promise.all(batch.map((node) => limit(() => visit(node))));
   }
 
-  // Post-pass: fetch de candidatos del sitemap con inbound no resueltos
+  // Post-pass: fetch de URLs del sitemap con inbound y sin status aún
   const inbound = new Set<string>();
   for (const e of edges) inbound.add(e.to);
 
@@ -195,8 +292,12 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
   await Promise.all(
     toFetch.map(async (k) => {
       try {
-        const { res, finalUrl, redirectChain } = await fetchWithRedirects(k, ua);
-        const contentType = res.headers.get("content-type");
+        const { res, finalUrl, redirectChain } = await fetchWithRedirects(
+          k,
+          ua,
+          DEFAULTS.requestTimeoutMs
+        );
+        const contentType = res.headers.get("content-type") || null;
         const prev = inventoryMap.get(k)!;
         inventoryMap.set(k, {
           ...prev,
@@ -242,7 +343,9 @@ export async function crawlSite(input: CrawlInput): Promise<CrawlOutput> {
     stats: {
       pagesFetched: fetchedCount,
       pagesFromSitemap: fromSitemaps.size,
-      pagesFromHtml: inventory.filter((i) => i.discoveredBy === "html" || i.discoveredBy === "both").length,
+      pagesFromHtml: inventory.filter(
+        (i) => i.discoveredBy === "html" || i.discoveredBy === "both"
+      ).length,
       elapsedMs: end - start,
     },
     reports: {
