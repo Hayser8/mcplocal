@@ -1,14 +1,14 @@
 # mcp-crawler (monorepo)
 
-Servidor **MCP** (Model Context Protocol) de crawling y auditoría SEO, sin UI.  
-Arquitectura en monorepo: `core` (lógica pura), `mcp-server` (STDIO), y `api` (Fastify opcional).
+MCP (Model Context Protocol) server for web crawling and SEO auditing — **no UI included**.  
+Monorepo layout: `core` (pure logic), `mcp-server` (STDIO MCP server), and `api` (optional Fastify HTTP API).
 
-## Estructura
+## Repository Structure
 
 ```
 .
 ├─ packages/
-│  └─ core/                    # Lógica de crawler/auditor (sin framework)
+│  └─ core/                    # Crawler/auditor logic (framework-agnostic)
 │     ├─ src/
 │     │  ├─ audit/indexability.ts
 │     │  ├─ crawler/crawl.ts
@@ -16,50 +16,60 @@ Arquitectura en monorepo: `core` (lógica pura), `mcp-server` (STDIO), y `api` (
 │     │  └─ types/contracts.ts
 │     └─ assets/ignore-extensions.txt
 ├─ apps/
-│  ├─ mcp-server/              # Servidor MCP por stdio (bin: `mcp-crawler`)
-│  │  └─ src/{index.ts, tools/{crawl.ts,audit.ts}}
-│  └─ api/                     # API HTTP opcional (Fastify)
-│     └─ src/{index.ts, routes/{audit.ts,crawl.ts}}
+│  ├─ mcp-server/              # MCP server over stdio (bin: `mcp-crawler`)
+│  │  └─ src/{index.ts,tools/{crawl.ts,audit.ts}}
+│  └─ api/                     # Optional HTTP API (Fastify)
+│     └─ src/{index.ts,routes/{audit.ts,crawl.ts}}
 ├─ tsconfig.base.json
-├─ package.json                # workspaces
-└─ pnpm-lock.yaml / package-lock.json (según gestor)
+├─ package.json                # workspaces enabled
+└─ lockfile (npm or pnpm)      # use **one** lockfile (do not mix)
 ```
 
-## Requisitos
+## Requirements
 
-- Node.js **>= 18.17** (incluye `fetch` global)
-- npm (o pnpm/yarn) con **workspaces** habilitados
+- Node.js **>= 18.17** (Node 20 LTS recommended). Global `fetch` is used.
+- A package manager with **workspaces** (npm/pnpm/yarn).
+- **Do not mix lockfiles**. Choose npm *or* pnpm and stick to it.
 
-## Variables de entorno
+## Environment Variables
 
-Crea `.env` (o exporta en tu shell). Ejemplo:
+Create a `.env` in the repo root (or export in your shell). Recommended values:
 
-```
-CRAWLER_USER_AGENT=mcp-crawler
+```ini
+# Crawler
+CRAWLER_USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36
 CRAWLER_MAX_CONCURRENCY=6
-CRAWLER_DEFAULT_DEPTH=2
-CRAWLER_MAX_PAGES=500
-CRAWLER_RESPECT_ROBOTS=1
+CRAWLER_DEFAULT_DEPTH=3
+CRAWLER_MAX_PAGES=150
+CRAWLER_TIMEOUT_MS=20000
 
-# API opcional
+# Robots note:
+# For local testing you can disable robots to avoid being blocked:
+CRAWLER_RESPECT_ROBOTS=0
+
+# Optional HTTP API
 PORT=8787
 CRAWLER_SNAPSHOT_DIR=./data/snapshots
 
-# Opcional: ruta custom de extensiones a ignorar
-# CRAWLER_IGNORE_EXT_FILE=/ruta/absoluta/ignore-extensions.txt
+# Optional: custom ignore list for non-HTML assets
+# CRAWLER_IGNORE_EXT_FILE=/absolute/path/to/ignore-extensions.txt
+
+# If you're behind a corporate proxy:
+# HTTPS_PROXY=http://user:pass@proxy:8080
+# HTTP_PROXY=http://user:pass@proxy:8080
 ```
 
-> `packages/core/assets/ignore-extensions.txt` ya trae una lista razonable (imágenes, binarios, fuentes, etc).
+> `packages/core/assets/ignore-extensions.txt` ships with a sensible default list (images, binaries, fonts, etc.).
 
-## Instalación
+## Installation
 
-En la **raíz** del repo:
+From the **repository root**:
 
 ```bash
 npm i
 ```
 
-Esto instala todas las dependencias de los tres paquetes vía workspaces.
+(If you changed dependencies or switched package managers, remove `node_modules` and reinstall.)
 
 ## Build
 
@@ -67,35 +77,56 @@ Esto instala todas las dependencias de los tres paquetes vía workspaces.
 npm run build
 ```
 
-- Compila `@mcp-crawler/core`, `mcp-server` y `api`.
+This compiles `@mcp-crawler/core`, `apps/mcp-server`, and `apps/api`.
 
-## Ejecutar MCP server (STDIO)
+## Quick Smoke Test (no MCP client needed)
 
-### Desarrollo (hot-reload)
+Run a direct crawl to verify networking, UA, and basics:
+
+```bash
+# Linux/macOS
+export CRAWLER_RESPECT_ROBOTS=0
+export CRAWLER_USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+npx tsx packages/core/src/scripts/smoke-crawl.ts https://www.ecorefugio.org
+
+# Windows PowerShell
+$env:CRAWLER_RESPECT_ROBOTS="0"
+$env:CRAWLER_USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+npx tsx packages/core/src/scripts/smoke-crawl.ts https://www.ecorefugio.org
+```
+
+**Expected:** `pagesFetched > 0`, some `2xx` in `statusBuckets`, and a snapshot saved under `./tmp/` (or your `CRAWLER_SNAPSHOT_DIR`).
+
+> Many sites/WAFs block unknown UAs. Using a browser-like UA (as above) helps avoid 403/429. For local testing we set `CRAWLER_RESPECT_ROBOTS=0`.
+
+## Run the MCP Server (STDIO)
+
+### Development (hot-reload)
+
 ```bash
 npm run dev:mcp
 ```
 
-### Producción (compilado)
+### Production (compiled)
+
 ```bash
 npm --workspace apps/mcp-server run build
 node apps/mcp-server/dist/index.js
 ```
 
-### Usar el binario `mcp-crawler`
-Para testear local como si estuviera instalado global:
+### Use the `mcp-crawler` binary
 
 ```bash
-# crea symlink global
+# create a global symlink to test like a globally installed package
 (cd apps/mcp-server && npm link)
 
-# ahora puedes ejecutar el bin
+# now you can run
 mcp-crawler
 ```
 
-## Configurar tu cliente MCP
+## Example MCP Client Configuration
 
-Ejemplo genérico de configuración:
+Configure your MCP-enabled client to launch the server via the `mcp-crawler` command:
 
 ```json
 {
@@ -103,34 +134,39 @@ Ejemplo genérico de configuración:
     "mcp-crawler": {
       "command": "mcp-crawler",
       "env": {
-        "CRAWLER_USER_AGENT": "mcp-crawler",
-        "CRAWLER_RESPECT_ROBOTS": "1"
+        "CRAWLER_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
+        "CRAWLER_RESPECT_ROBOTS": "0",
+        "CRAWLER_TIMEOUT_MS": "20000",
+        "CRAWLER_DEFAULT_DEPTH": "3",
+        "CRAWLER_MAX_PAGES": "150"
       }
     }
   }
 }
 ```
 
-Herramientas expuestas:
+**Exposed tools**
 - `crawler.health`
-- `crawl.site` (descubrimiento + robots/sitemap)
+- `crawl.site` (discovery + robots/sitemap)
 - `audit.indexability` (status, canonical, robots/meta/x-robots, hreflang)
-- `echo.args` (diagnóstico)
+- `echo.args` (diagnostics)
 
-## Ejecutar API HTTP (opcional)
+## Optional HTTP API
 
-### Desarrollo
+### Development
+
 ```bash
 npm run dev:api
 ```
 
-### Producción
+### Production
+
 ```bash
 npm --workspace apps/api run build
 node apps/api/dist/index.js
 ```
 
-### Probar con `curl`
+### Basic `curl` checks
 
 ```bash
 # Health
@@ -143,29 +179,28 @@ curl -s -X POST http://localhost:8787/api/crawl   -H 'content-type: application/
 curl -s -X POST http://localhost:8787/api/audit   -H 'content-type: application/json'   -d '{"urls":["https://example.com/","https://example.com/about"]}'
 ```
 
-## Desarrollo
+## Development Scripts
 
-- `npm run dev:mcp` — hot reload del MCP server
-- `npm run dev:api` — hot reload del API
-- `npm run build` — build de todo el monorepo
-
-## Publicación en npm (opcional)
-
-Publicar el core:
-```bash
-npm publish --workspace packages/core
-```
-
-Publicar el server (bin):
-```bash
-npm publish --workspace apps/mcp-server
-```
-
-> Asegúrate de **actualizar versiones** y de tener `files` y `exports` correctos en cada `package.json`.
+- `npm run dev:mcp` — MCP server in hot-reload  
+- `npm run dev:api` — HTTP API in hot-reload  
+- `npm run build` — builds the entire monorepo
 
 ## Troubleshooting
 
-- **`ERR_MODULE_NOT_FOUND`**: ejecuta `npm i` en la raíz (no en subcarpetas).
-- **No aparece el bin `mcp-crawler`**: compila y/o `npm link` dentro de `apps/mcp-server`.
-- **Robots/sitemaps no respetados**: revisa `CRAWLER_RESPECT_ROBOTS=1` y `CRAWLER_USER_AGENT`.
-- **Crawl de PDFs/imágenes**: edita `packages/core/assets/ignore-extensions.txt` o usa `CRAWLER_IGNORE_EXT_FILE`.
+- **`pagesFetched: 0`**
+  - Use a browser-like UA via `CRAWLER_USER_AGENT`.
+  - For local tests, set `CRAWLER_RESPECT_ROBOTS=0`.
+  - Increase `CRAWLER_TIMEOUT_MS` (20s recommended).
+  - If you’re behind a proxy, set `HTTPS_PROXY`/`HTTP_PROXY`.
+
+- **`ERR_MODULE_NOT_FOUND`**
+  - Install from the **repo root** (`npm i`) so workspaces hoist properly.
+  - Don’t mix npm and pnpm lockfiles.
+
+- **Binary `mcp-crawler` not found**
+  - Build and/or `npm link` inside `apps/mcp-server`.
+
+---
+
+**License:** MIT 
+**Contact:** Maintainers of `mcp-crawler`

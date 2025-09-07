@@ -1,0 +1,4651 @@
+{
+  "inventory": [
+    {
+      "url": "https://www.ecorefugio.org/",
+      "normalizedUrl": "https://www.ecorefugio.org/",
+      "finalUrl": "https://www.ecorefugio.org/",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 0,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/exoterra",
+      "normalizedUrl": "https://www.ecorefugio.org/exoterra",
+      "finalUrl": "https://www.ecorefugio.org/exoterra",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/zoomed",
+      "normalizedUrl": "https://www.ecorefugio.org/zoomed",
+      "finalUrl": "https://www.ecorefugio.org/zoomed",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptizoo",
+      "normalizedUrl": "https://www.ecorefugio.org/reptizoo",
+      "finalUrl": "https://www.ecorefugio.org/reptizoo",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/terratlantis",
+      "normalizedUrl": "https://www.ecorefugio.org/terratlantis",
+      "finalUrl": "https://www.ecorefugio.org/terratlantis",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/zilla",
+      "normalizedUrl": "https://www.ecorefugio.org/zilla",
+      "finalUrl": "https://www.ecorefugio.org/zilla",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/cristal",
+      "normalizedUrl": "https://www.ecorefugio.org/cristal",
+      "finalUrl": "https://www.ecorefugio.org/cristal",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/acrilico",
+      "normalizedUrl": "https://www.ecorefugio.org/acrilico",
+      "finalUrl": "https://www.ecorefugio.org/acrilico",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/madera",
+      "normalizedUrl": "https://www.ecorefugio.org/madera",
+      "finalUrl": "https://www.ecorefugio.org/madera",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/malla",
+      "normalizedUrl": "https://www.ecorefugio.org/malla",
+      "finalUrl": "https://www.ecorefugio.org/malla",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/pvc",
+      "normalizedUrl": "https://www.ecorefugio.org/pvc",
+      "finalUrl": "https://www.ecorefugio.org/pvc",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/plastico",
+      "normalizedUrl": "https://www.ecorefugio.org/plastico",
+      "finalUrl": "https://www.ecorefugio.org/plastico",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/mini",
+      "normalizedUrl": "https://www.ecorefugio.org/mini",
+      "finalUrl": "https://www.ecorefugio.org/mini",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/pequenos",
+      "normalizedUrl": "https://www.ecorefugio.org/pequenos",
+      "finalUrl": "https://www.ecorefugio.org/pequenos",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/medianos",
+      "normalizedUrl": "https://www.ecorefugio.org/medianos",
+      "finalUrl": "https://www.ecorefugio.org/medianos",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/grandes",
+      "normalizedUrl": "https://www.ecorefugio.org/grandes",
+      "finalUrl": "https://www.ecorefugio.org/grandes",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles",
+      "finalUrl": "https://www.ecorefugio.org/reptiles",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/serpientes",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/serpientes",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/serpientes",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 2,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 3,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 3,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 3,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 3,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 3,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/geckos",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/geckos",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/geckos",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 2,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 3,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 3,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "normalizedUrl": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "finalUrl": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 3,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/anfibios",
+      "normalizedUrl": "https://www.ecorefugio.org/anfibios",
+      "finalUrl": "https://www.ecorefugio.org/anfibios",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/aracnidos",
+      "normalizedUrl": "https://www.ecorefugio.org/aracnidos",
+      "finalUrl": "https://www.ecorefugio.org/aracnidos",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/aracnidos/aranas",
+      "normalizedUrl": "https://www.ecorefugio.org/aracnidos/aranas",
+      "finalUrl": "https://www.ecorefugio.org/aracnidos/aranas",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 2,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/insectos",
+      "normalizedUrl": "https://www.ecorefugio.org/insectos",
+      "finalUrl": "https://www.ecorefugio.org/insectos",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/crustaceos",
+      "normalizedUrl": "https://www.ecorefugio.org/crustaceos",
+      "finalUrl": "https://www.ecorefugio.org/crustaceos",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/moluscos",
+      "normalizedUrl": "https://www.ecorefugio.org/moluscos",
+      "finalUrl": "https://www.ecorefugio.org/moluscos",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/mamiferos",
+      "normalizedUrl": "https://www.ecorefugio.org/mamiferos",
+      "finalUrl": "https://www.ecorefugio.org/mamiferos",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "normalizedUrl": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "finalUrl": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/sobre-nosotros",
+      "normalizedUrl": "https://www.ecorefugio.org/sobre-nosotros",
+      "finalUrl": "https://www.ecorefugio.org/sobre-nosotros",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "both",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/politica-privacidad",
+      "normalizedUrl": "https://www.ecorefugio.org/politica-privacidad",
+      "finalUrl": "https://www.ecorefugio.org/politica-privacidad",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "html",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/politica-cookies",
+      "normalizedUrl": "https://www.ecorefugio.org/politica-cookies",
+      "finalUrl": "https://www.ecorefugio.org/politica-cookies",
+      "status": 200,
+      "contentType": "text/html",
+      "depth": 1,
+      "discoveredBy": "html",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/aracnidos/escorpiones",
+      "normalizedUrl": "https://www.ecorefugio.org/aracnidos/escorpiones",
+      "finalUrl": "https://www.ecorefugio.org/aracnidos/escorpiones",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "depth": 2,
+      "discoveredBy": "html",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/aracnidos/aranas/tarantulas",
+      "normalizedUrl": "https://www.ecorefugio.org/aracnidos/aranas/tarantulas",
+      "finalUrl": "https://www.ecorefugio.org/aracnidos/aranas/tarantulas",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "depth": 3,
+      "discoveredBy": "html",
+      "redirectChain": []
+    },
+    {
+      "url": "https://www.ecorefugio.org/aracnidos/aranas/aranassaltarinas",
+      "normalizedUrl": "https://www.ecorefugio.org/aracnidos/aranas/aranassaltarinas",
+      "finalUrl": "https://www.ecorefugio.org/aracnidos/aranas/aranassaltarinas",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "depth": 3,
+      "discoveredBy": "html",
+      "redirectChain": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/calculadora-de-terrarios",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/anfibios",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/crustaceos",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/reptiles/geckos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/insectos",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/aracnidos/aranas"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos",
+      "to": "https://www.ecorefugio.org/aracnidos/escorpiones"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/acrilico",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/madera",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/cristal",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/malla",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/moluscos",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mamiferos",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/medianos",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/mini",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/plastico",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/grandes",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pequenos",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/pvc",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/exoterra",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptizoo",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/sobre-nosotros",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/terratlantis",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zoomed",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/zilla",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-privacidad",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/politica-cookies",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/reptiles/geckos/leopardo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/reptiles/geckos/crestado"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos",
+      "to": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes/piton"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes/de-agua"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes/cobra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/aracnidos/aranas/tarantulas"
+    },
+    {
+      "from": "https://www.ecorefugio.org/aracnidos/aranas",
+      "to": "https://www.ecorefugio.org/aracnidos/aranas/aranassaltarinas"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/crestado",
+      "to": "https://www.ecorefugio.org/reptiles/geckos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/piton",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/leopardo",
+      "to": "https://www.ecorefugio.org/reptiles/geckos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/geckos/salamanquesa",
+      "to": "https://www.ecorefugio.org/reptiles/geckos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes/del-maiz"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes/piton"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes/boa-constrictor"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/cobra",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes/de-agua"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/calculadora-de-terrarios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/reptiles"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/anfibios"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/aracnidos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/insectos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/crustaceos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/moluscos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/mamiferos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/cristal"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/acrilico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/madera"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/malla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/pvc"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/plastico"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/mini"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/pequenos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/medianos"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/grandes"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/exoterra"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/zoomed"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/reptizoo"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/zilla"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/terratlantis"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/sobre-nosotros"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/politica-privacidad"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/politica-cookies"
+    },
+    {
+      "from": "https://www.ecorefugio.org/reptiles/serpientes/de-agua",
+      "to": "https://www.ecorefugio.org/reptiles/serpientes"
+    }
+  ],
+  "sitemap": [
+    "https://www.ecorefugio.org/sitemap.xml",
+    "https://ecorefugio.org/sitemap.xml"
+  ],
+  "stats": {
+    "pagesFetched": 41,
+    "pagesFromSitemap": 36,
+    "pagesFromHtml": 41,
+    "elapsedMs": 5313
+  },
+  "reports": {
+    "orphansInSitemap": [],
+    "linkedNotInSitemap": [
+      "https://www.ecorefugio.org/politica-privacidad",
+      "https://www.ecorefugio.org/politica-cookies",
+      "https://www.ecorefugio.org/aracnidos/escorpiones",
+      "https://www.ecorefugio.org/aracnidos/aranas/tarantulas",
+      "https://www.ecorefugio.org/aracnidos/aranas/aranassaltarinas"
+    ],
+    "statusBuckets": {
+      "0xx": 0,
+      "2xx": 38,
+      "3xx": 0,
+      "4xx": 3,
+      "5xx": 0
+    }
+  }
+}

@@ -28,7 +28,7 @@ const DEFAULTS = {
   maxPages: Number(process.env.CRAWLER_MAX_PAGES ?? 500),
   ua: (process.env.CRAWLER_USER_AGENT?.trim() || BROWSER_UA),
   maxConcurrency: Number(process.env.CRAWLER_MAX_CONCURRENCY ?? 6),
-  respectRobots: process.env.CRAWLER_RESPECT_ROBOTS === "1",
+  respectRobots: process.env.CRAWLER_RESPECT_ROBOTS === "0",
   requestTimeoutMs: Number(process.env.CRAWLER_TIMEOUT_MS ?? 20000),
 };
 

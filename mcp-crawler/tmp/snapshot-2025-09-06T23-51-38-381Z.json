@@ -1,0 +1,25 @@
+{
+  "inventory": [],
+  "edges": [],
+  "sitemap": [
+    "https://www.ecorefugio.org/sitemap.xml",
+    "https://ecorefugio.org/sitemap.xml"
+  ],
+  "stats": {
+    "pagesFetched": 0,
+    "pagesFromSitemap": 0,
+    "pagesFromHtml": 0,
+    "elapsedMs": 1630
+  },
+  "reports": {
+    "orphansInSitemap": [],
+    "linkedNotInSitemap": [],
+    "statusBuckets": {
+      "0xx": 0,
+      "2xx": 0,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0
+    }
+  }
+}
